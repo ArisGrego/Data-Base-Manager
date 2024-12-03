@@ -29,9 +29,9 @@ public class ConnectMe extends javax.swing.JFrame {
     
      // ΣΥΝΔΕΣΗ ΜΕ ΤΗ ΒΑΣΗ ΔΕΔΟΜΕΝΩΝ
     private void connectToDatabase() {
-        String url = "jdbc:postgresql://localhost:5432/ArisData";   //URL ΒΑΣΗΣ ΔΕΔΟΜΕΝΩΝ
-        String user = "postgres";				    //ΧΡΗΣΤΗΣ ΒΑΣΗΣ ΔΕΔΟΜΕΝΩΝ
-        String password = "Bibikos1908.";			    //ΚΩΔΙΚΟΣ ΒΑΣΗΣ ΔΕΔΟΜΕΝΩΝ
+        String url = "******";                              //URL ΒΑΣΗΣ ΔΕΔΟΜΕΝΩΝ (ΒΑΖΕΙΣ ΤΟ ΔΙΚΟ ΣΟΥ)
+        String user = "********";				            //ΧΡΗΣΤΗΣ ΒΑΣΗΣ ΔΕΔΟΜΕΝΩΝ (ΒΑΖΕΙΣ ΤΟ ΔΙΚΟ ΣΟΥ)
+        String password = "********";			            //ΚΩΔΙΚΟΣ ΒΑΣΗΣ ΔΕΔΟΜΕΝΩΝ (ΒΑΖΕΙΣ ΤΟ ΔΙΚΟ ΣΟΥ)
 
         try {
             if (connection == null || connection.isClosed()) {      //ΑΝ ΤΟ ΑΝΤΙΚΕΙΜΕΝΟ connection ΕΧΕΙ ΜΗΔΕΝΙΚΗ ΤΙΜΗ Ή ΕΙΝΑΙ ΚΛΕΙΣΤΟ == ΔΗΛΑΔΗ ΔΕΝ ΥΠΑΡΧΕΙ ΣΥΝΔΕΣΗ ΜΕ ΤΗ ΒΑΣΗ
